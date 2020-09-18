@@ -1,0 +1,11 @@
+{
+  "name": "sesion-typescript",
+  "version": "1.0.0",
+  "description": "Scripts para el aprendizaje de TypeScript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Biko2",
+  "license": "ISC"
+}
