@@ -4,8 +4,12 @@
   "description": "Scripts para el aprendizaje de TypeScript",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "hello-world": "ts-node helloWorld.ts"
   },
   "author": "Biko2",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
 }
