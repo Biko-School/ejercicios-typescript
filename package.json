@@ -4,7 +4,7 @@
   "description": "Scripts para el aprendizaje de TypeScript",
   "main": "index.ts",
   "scripts": {
-    "hello-world": "ts-node helloWorld.ts"
+    "start": "ts-node"
   },
   "author": "Biko2",
   "license": "ISC",
