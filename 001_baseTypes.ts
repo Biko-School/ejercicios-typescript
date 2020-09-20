@@ -6,12 +6,12 @@ const text2: string = "World"
 /*
  *  Reemplazar los undefined por los tipos correctos
  */ 
-const resutl01: undefined = number1 + number2
-const resutl02: undefined = number1 - number2
-const resutl03: undefined = number1 * number2
-const resutl04: undefined = number1 / number2
-const resutl05: undefined = text1 + text2
-const resutl06: undefined = number1 + text1
+const result01: undefined = number1 + number2
+const result02: undefined = number1 - number2
+const result03: undefined = number1 * number2
+const result04: undefined = number1 / number2
+const result05: undefined = text1 + text2
+const result06: undefined = number1 + text1
 const result07: undefined = !!number1
 const result08: undefined = number1 === number2
 const result09: undefined = number1 !== number2
