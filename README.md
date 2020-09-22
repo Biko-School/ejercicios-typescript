@@ -7,6 +7,8 @@ En este repositorio encontrarás varios ejercicios, en los que verás diferentes
 - Ejercicio 4: Definiendo clases
 - Ejercicio 5: Clases que implementan interfaces
 - Ejercicio 6: Definiendo enumerados
+- Ejercicio 7: Strings en enumerados
+- Ejercicio 8: Tipos literales
 
 ## Antes de empezar
 
