@@ -4,6 +4,8 @@
     además, podemos declarar miembros privados o públicos. Igual que en los
     mejores lenguajes!
 
+    Consulta la documentación: https://www.typescriptlang.org/docs/handbook/classes.html
+
     --- Resultado esperado en consola
     Hola, Maialen!
 */
