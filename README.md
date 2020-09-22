@@ -16,8 +16,8 @@ Tendrás que instalarte las dependencias, haciendo un `npm install` en la termin
 
 Cada ejercicio se trabajará en un módulo Typescript (`.ts`). Todos los módulos fallan por algún motivo y en todos se pide que se muestre algo por consoloa. El objetivo es hacer que se muestre la frase indicada en el enunciado editando el código que se permite modificar (irá marcado con unos comentarios).
 
-Para ejecutar un ejercicio, tendrás que utilizar el comando `yarn start <ejercicio>`. Por ejemplo, si queremos hacer el primer ejercicio:
+Para ejecutar un ejercicio, tendrás que utilizar el comando `npm start <ejercicio>`. Por ejemplo, si queremos hacer el primer ejercicio:
 
 ```
-yarn start Ejercicio_1.ts
+npm start Ejercicio_1.ts
 ```
