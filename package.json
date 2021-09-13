@@ -9,6 +9,7 @@
   "author": "Biko2",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^16.9.1",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
   }

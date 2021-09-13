@@ -38,8 +38,8 @@ const personaje2: Personaje = {
 }
 
 // Modifica el código bajo esta línea
-const getName = (animal: Animal) =>
+const getName = (animal: Animal) => animal.name ?? 'Toby'
 // Modifica el código sobre esta línea
 
-console.log(`${personaje.name} tiene un ${personaje.animal} que se llama ${getName(personaje.animal)}`)
-console.log(`${personaje2.name} tiene una ${personaje2.animal} que se llama ${getName(personaje2.animal)}`)
+console.log(`${personaje.name} tiene un ${personaje.animal.type} que se llama ${getName(personaje.animal)}`)
+console.log(`${personaje2.name} tiene una ${personaje2.animal.type} que se llama ${getName(personaje2.animal)}`)
