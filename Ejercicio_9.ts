@@ -25,7 +25,7 @@ interface Animal {
 const personaje: Personaje = {
     name: 'Alicia',
     animal: {
-        type: 'Toby'
+        type: 'Perro'
     }
 }
 
@@ -33,4 +33,4 @@ const personaje: Personaje = {
 const getName = (animal: Animal) => animal.name
 // Modifica el código sobre esta línea
 
-console.log(`${personaje.name} tiene un ${personaje.animal} que se llama ${getName(personaje.animal)}`)
+console.log(`${personaje.name} tiene un ${personaje.animal.type} que se llama ${getName(personaje.animal)}`)
