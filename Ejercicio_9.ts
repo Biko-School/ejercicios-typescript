@@ -9,6 +9,7 @@
     --- Resultado esperado por consola
     Alicia tiene perro que se llama undefined
 */
+export {}; //https://stackoverflow.com/questions/40900791/cannot-redeclare-block-scoped-variable-in-unrelated-files
 
 
 interface Personaje {
@@ -30,7 +31,8 @@ const personaje: Personaje = {
 }
 
 // Modifica el código bajo esta línea
-const getName = (animal: Animal) => animal.name
+const getName = (animal?: Animal) => animal.name
+
 // Modifica el código sobre esta línea
 
 console.log(`${personaje.name} tiene un ${personaje.animal.type} que se llama ${getName(personaje.animal)}`)
