@@ -4,6 +4,8 @@
     Es un operador lógico que devuelve el valor del primer argumento cuando este no es null ni undefined.
     En caso contrario, devuelve el segundo.
 
+   Puedes saber más en: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator
+
     --- Resultado esperado por consola
     Alicia tiene un perro que se llama Toby
     Juan tiene una cobaya que se llama Brownie
