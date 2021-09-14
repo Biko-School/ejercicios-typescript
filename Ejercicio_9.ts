@@ -9,7 +9,6 @@
     --- Resultado esperado por consola
     Alicia tiene perro que se llama undefined
 */
-export {}; //https://stackoverflow.com/questions/40900791/cannot-redeclare-block-scoped-variable-in-unrelated-files
 
 interface Personaje {
   name: string;
@@ -38,3 +37,5 @@ console.log(
     personaje.animal
   )}`
 );
+
+export {}; //https://stackoverflow.com/questions/40900791/cannot-redeclare-block-scoped-variable-in-unrelated-files

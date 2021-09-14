@@ -10,7 +10,6 @@
     Alicia tiene un perro que se llama Toby
     Juan tiene una cobaya que se llama Brownie
 */
-export {}; //https://stackoverflow.com/questions/40900791/cannot-redeclare-block-scoped-variable-in-unrelated-files
 
 interface Personaje {
   name: string;
@@ -51,3 +50,5 @@ console.log(
     personaje2.animal.type
   } que se llama ${getName(personaje2.animal)}`
 );
+
+export {}; //https://stackoverflow.com/questions/40900791/cannot-redeclare-block-scoped-variable-in-unrelated-files
