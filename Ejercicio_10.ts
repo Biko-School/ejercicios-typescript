@@ -13,34 +13,41 @@
 export {}; //https://stackoverflow.com/questions/40900791/cannot-redeclare-block-scoped-variable-in-unrelated-files
 
 interface Personaje {
-    name: string
-    animal: Animal
+  name: string;
+  animal: Animal;
 }
 
 interface Animal {
-    type: string
-    name?: string
-
+  type: string;
+  name?: string;
 }
 
 const personaje: Personaje = {
-    name: 'Alicia',
-    animal: {
-        type: 'Perro'
-    }
-}
+  name: "Alicia",
+  animal: {
+    type: "Perro",
+  },
+};
 
 const personaje2: Personaje = {
-    name: 'Juan',
-    animal: {
-        name: 'Brownie',
-        type: 'Cobaya'
-    }
-}
+  name: "Juan",
+  animal: {
+    name: "Brownie",
+    type: "Cobaya",
+  },
+};
 
 // Modifica el código bajo esta línea
-const getName = (animal: Animal) => {}
+const getName = (animal: Animal) => {};
 // Modifica el código sobre esta línea
 
-console.log(`${personaje.name} tiene un ${personaje.animal.type} que se llama ${getName(personaje.animal)}`)
-console.log(`${personaje2.name} tiene una ${personaje2.animal.type} que se llama ${getName(personaje2.animal)}`)
+console.log(
+  `${personaje.name} tiene un ${personaje.animal.type} que se llama ${getName(
+    personaje.animal
+  )}`
+);
+console.log(
+  `${personaje2.name} tiene una ${
+    personaje2.animal.type
+  } que se llama ${getName(personaje2.animal)}`
+);
