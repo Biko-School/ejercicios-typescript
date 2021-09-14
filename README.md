@@ -9,6 +9,9 @@ En este repositorio encontrarás varios ejercicios, en los que verás diferentes
 - [Ejercicio 6: Definiendo enumerados](Ejercicio_6.ts)
 - [Ejercicio 7: Strings en enumerados](Ejercicio_7.ts)
 - [Ejercicio 8: Tipos literales](Ejercicio_8.ts)
+- [Ejercicio 9: Optional chaining](Ejercicio_9.ts)
+- [Ejercicio 10: Nullish coalescing](Ejercicio_10.ts)
+- [Ejercicio final: Jugando con TypeScript](Ejercicio_final.ts)
 
 ## Antes de empezar
 

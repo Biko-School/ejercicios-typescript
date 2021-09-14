@@ -1,3 +1,9 @@
+/*
+    Hemos copiado y pegado un código que teníamos en Javascript y queremos 
+    migrarlo a TypeScript. ¿Nos ayudas a conseguirlo? Aprovecha para probar
+    todo lo que quieras sobre este lenguaje de programación
+*/
+
 class Pokemon {
     constructor(nombre, numero, ataques) {
         this.nombre = nombre
