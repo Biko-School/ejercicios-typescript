@@ -39,7 +39,7 @@ const personaje2: Personaje = {
 }
 
 // Modifica el código bajo esta línea
-const getName = (animal: Animal) => animal.name ?? 'Toby'
+const getName = (animal: Animal) => {}
 // Modifica el código sobre esta línea
 
 console.log(`${personaje.name} tiene un ${personaje.animal.type} que se llama ${getName(personaje.animal)}`)
