@@ -2,7 +2,7 @@
     DECLARANDO VARIABLES
     Parece que este código falla... ¿Qué está pasando?
 
-    Más información: https://www.typescriptlang.org/docs/handbook/basic-types.html
+    Más información: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 
     --- Resultado esperado por consola
     5    

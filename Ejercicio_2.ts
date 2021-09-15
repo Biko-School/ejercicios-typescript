@@ -3,7 +3,7 @@
     Podemos aceptar varios tipos en una variable, ¿sabrías cómo?
     Una pista: Typescript union types. Google es tu amigo ;)
 
-    Más información: https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html
+    Más información: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types
 
     --- Resultado esperado por consola
     5
