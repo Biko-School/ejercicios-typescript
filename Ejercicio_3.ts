@@ -2,7 +2,7 @@
     DEFINIENDO INTERFACES
     También podemos definir una interfaz en Typescript. Te diría lo que hace
     pero mejor se lo dejaremos a la documentación oficial:
-    https://www.typescriptlang.org/docs/handbook/interfaces.html
+    https://www.typescriptlang.org/docs/handbook/2/objects.html
 
     ¿Puedes hacer que este código pinte lo que esperamos?
 
